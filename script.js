@@ -25,3 +25,6 @@ buckets.forEach((bucket, index) => {
     }
   });
 });
+
+// 오디오 소리 default 값 설정
+document.getElementById("background_music").volume = 0.2;

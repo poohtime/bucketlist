@@ -34,8 +34,13 @@ html {
   animation: scale-out 0.5s ease-in-out 1;
 }
 
+body {
+  background-image: url("./design/background.gif");
+}
+
 .bg {
-  background-image: url("./design/Sparthon_BG.png");
+  background-image:url("./design/background.gif"), url("./design/background.jpg"),
+    ;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
