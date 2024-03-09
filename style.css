@@ -1,0 +1,118 @@
+@keyframes scale-out {
+  0% {
+    transform: scale(1.4);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.done::after {
+  content: "";
+  width: 107px;
+  height: 70px;
+  background-image: url("./design/Done.png");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 25%;
+  animation: scale-out 0.5s ease-in-out 1;
+}
+
+.bg {
+  background-image: url("./design/Sparthon_BG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-color: #141617;
+}
+
+.title {
+  margin-top: 50px;
+  color: #e8344e;
+}
+
+.bucket {
+  background-size: cover;
+  background-position: center;
+  margin: 8px;
+  position: relative;
+
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  word-break: keep-all;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.msg {
+  color: white;
+  margin-bottom: 48px;
+}
+
+.bucket {
+  width: 160px;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+}
+
+.img1 {
+  background-image: url("./design/Bucket01.png");
+  color: white;
+}
+
+.img2 {
+  background-image: url("./design/Bucket02.png");
+  color: #e8344e;
+}
+
+.img3 {
+  background-image: url("./design/Bucket03.png");
+  color: #e8344e;
+}
+
+.img4 {
+  background-image: url("./design/Bucket04.png");
+  color: white;
+}
+
+.img5 {
+  background-image: url("./design/Bucket05.png");
+  color: white;
+}
+
+.img6 {
+  background-image: url("./design/Bucket06.png");
+  color: #e8344e;
+}
+
+.hidden {
+  visibility: hidden;
+}
