@@ -38,13 +38,35 @@ body {
   background-image: url("./design/background.gif");
 }
 
+.titleAdd{
+    font-size: 28px;
+    font-weight: 600;
+    color: aliceblue;
+    -webkit-text-stroke: 1px green;
+}
+
+.addButton{
+    background-color: #e8344e;
+    border-radius: 100%;
+}
+
 .bg {
-  background-image:url("./design/background.gif"), url("./design/background.jpg"),
-    ;
+  background-image: url("./design/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
   background-color: #141617;
+  z-index: -1;
+}
+
+.bg:before {
+  background-image: url("./design/background.gif");
+  z-index: 1;
+}
+
+.bucket_list {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
 }
 
 .title {
